@@ -1,7 +1,7 @@
 const Card = [
     {
         id: 1,
-        Title: "Snapchat Landing Page",
+        Title: "Snapchat Landing Page 👻",
         Type: "Clone",
         Description: "This website is a clone of the snapchat landing page",
         Image: "https://i.pinimg.com/564x/09/6a/b0/096ab0f9ba12085c5078b99a26d694dd.jpg",

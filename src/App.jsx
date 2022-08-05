@@ -15,7 +15,7 @@ function App() {
   }
 
   return (
-    <>
+    <div className='App'>
       <BrowserRouter>
         <SideBar showMenu={showMenu} showMenuFucnction={showMenuFucnction} />
         <img src={require("./Assets/Icons/Mobile-Menu-Icon.png")} alt="" className="Mobile-Menu-Icon" />
@@ -24,7 +24,7 @@ function App() {
           <Route path='/' element={<LandingPage />} />   
         </Routes>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

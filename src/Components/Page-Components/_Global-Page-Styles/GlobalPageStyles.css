@@ -26,6 +26,7 @@
   font-weight: 400;
   text-align: left;
   margin: auto;
+  margin-left: 0px;
   transition: 0.5s;
 }
 .Page-Section .Header-Container .Header-Text .Red-Letter {
@@ -41,6 +42,19 @@
 .Page-Section .Header-Container .Job-Title .Red-Letter {
   color: red;
 }
+.Page-Section .Header-Container .Section-Description {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+  margin: auto;
+  margin-left: 0px;
+  transition: 0.5s;
+}
+.Page-Section .Header-Container .Section-Description .Red-Letter {
+  color: red;
+}
 @media only screen and (max-width: 1300px) {
   .Page-Section .Header-Container .Header-Text {
     font-size: 83px;
@@ -52,5 +66,22 @@
   }
   .Page-Section .Header-Container .Header-Text {
     font-size: 63px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .Page-Section .Header-Container {
+    margin-left: 0px;
+  }
+  .Page-Section .Header-Container .Header-Text {
+    font-size: 53px;
+  }
+  .Page-Section .Header-Container .Section-Description {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .Page-Section {
+    padding: 10px;
   }
 }/*# sourceMappingURL=GlobalPageStyles.css.map */

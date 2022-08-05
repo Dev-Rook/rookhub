@@ -1,4 +1,4 @@
-.Main-Button {
+.Contact-Button, .View-More-Button {
   width: 200px;
   align-items: center;
   background-color: #1d1d1d;
@@ -26,7 +26,7 @@
   transition: 0.5s;
 }
 
-.Main-Button:after {
+.Contact-Button:after, .View-More-Button:after {
   border: 1px solid #f20407;
   content: "";
   display: block;
@@ -40,24 +40,19 @@
   z-index: -1;
 }
 
-.Main-Button:hover:after {
+.Contact-Button:hover:after, .View-More-Button:hover:after {
   transform: translate(0, 0);
 }
 
-.Main-Button:active {
+.Contact-Button:active, .View-More-Button:active {
   background-color: #ffdeda;
   outline: 0;
 }
 
-.Main-Button:hover {
+.Contact-Button:hover, .View-More-Button:hover {
   outline: 0;
 }
 
-@media (min-width: 768px) {
-  .Main-Button {
-    padding: 0 40px;
-  }
-}
 .Main-Button-Text {
   color: #fff;
   font-family: sans-serif;
@@ -65,6 +60,21 @@
   font-weight: 400;
 }
 
-.Main-Button:hover {
+@media (min-width: 768px) {
+  .Contact-Button {
+    padding: 0 40px;
+  }
+  .View-More-Button {
+    padding: 0 40px;
+  }
+}
+.Contact-Button-Text, .View-More-Button {
+  color: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Contact-Button:hover, .View-More-Button:hover {
   background-color: rgba(242, 4, 7, 0.5);
 }/*# sourceMappingURL=MainButton.css.map */
