@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Libre+Barcode+39+Text&family=Pattaya&display=swap');
 
 .Page-Section {
     border: 1px solid black;
@@ -59,11 +59,19 @@
     }
 
     @media only screen and (max-width: 1300px) {
+        .Header-Container {         
+            .Header-Text {
+                font-size: 83px;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 996px) {
         .Header-Container {
             margin-left: 0px;
             
             .Header-Text {
-                font-size: 83px;
+                font-size: 63px;
             }
         }
     }

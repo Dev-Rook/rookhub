@@ -1,4 +1,5 @@
 import React from 'react'
+// import { Link } from 'react-router-dom';
 
 
 import "./Styles/SideBarStyles.css"
@@ -7,7 +8,7 @@ const SideBar = () => {
   return (
     <div className="Side-Bar">
         <div className="Logo-Container">
-            <img src="" alt="" className="Side-Bar-Logo" />
+            <img src={require("../../Assets/Images/SideBar-Logo-1.jpg")} alt="" className="Side-Bar-Logo" />
         </div>
 
         <ul className="NavLink-Container">

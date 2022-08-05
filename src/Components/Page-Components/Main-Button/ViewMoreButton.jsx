@@ -1,14 +1,14 @@
 import React from 'react'
 import "./Styles/MainButton.css"
 
-const MainButton = () => {
+const ViewMoreButton = () => {
   return (
-    <button className='Main-Button'>
+    <button className='View-More-Button'>
         <p className="Main-Button-Text">
-            Contact Me!
+            View More?
         </p>
     </button>
   )
 }
 
-export default MainButton
+export default ViewMoreButton

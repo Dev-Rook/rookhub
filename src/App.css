@@ -8,4 +8,24 @@
   position: relative;
   display: flex;
   flex-direction: column;
+  overflow-x: hidden;
+}
+
+.Mobile-Menu-Icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+
+
+  height: 80px;
+  z-index: 1;
+
+  transition: .5s;
+  transform: translateX(100%);
+}
+
+@media only screen and (max-width: 996px) {
+  .Mobile-Menu-Icon {
+    transform: translateX(0%);
+  }
 }

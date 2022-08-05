@@ -2,7 +2,7 @@ import React from 'react'
 
 import "../_Global-Page-Styles/GlobalPageStyles.css"
 
-import MainButton from '../Main-Button/MainButton'
+import ContactButton from '../Main-Button/ContactButton'
 
 const Intro = () => {
   return (
@@ -16,7 +16,7 @@ const Intro = () => {
                 <span className='Red-Letter'>-</span> Frontend Web Developer
             </p>
             
-            <MainButton />
+            <ContactButton />
         </div>
 
     </div>
