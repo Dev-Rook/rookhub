@@ -1,0 +1,21 @@
+.Experience-Container {
+  grid-gap: 10px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  margin: auto auto auto 150px;
+  padding: 10px;
+  width: 500px;
+}
+.Experience-Container .Experience-Card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 150px;
+  margin: auto;
+  overflow: hidden;
+  text-align: center;
+  transition: 0.5s;
+  width: 100px;
+}/*# sourceMappingURL=About.css.map */

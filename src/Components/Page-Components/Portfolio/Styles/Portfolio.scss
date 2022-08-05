@@ -1,7 +1,5 @@
 
 .Portfolio-Container {
-    border: 1px solid white;
-
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 
@@ -22,7 +20,6 @@
     
     .Project-Card {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-        border: 1px solid white;
         display: flex;
         flex-direction: column;
     
