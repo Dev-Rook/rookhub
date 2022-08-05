@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import "../_Global-Page-Styles/GlobalPageStyles.css";
 import "./Styles/About.css";
 
+import ExperienceCard from "../../Custom Api/ExpericenceCard";
+
 export const About = () => {
+  const [experienceCard, setExperinceCard] = useState(ExperienceCard);
+
   return (
     <div className="Page-Section About-Section">
       <div className="Header-Container">
@@ -30,7 +34,15 @@ export const About = () => {
       </div>
 
       <div className="Experience-Container">
-        
+        {experienceCard.map((value) => {
+          const { id, Image } = value;
+
+          return (
+            <div className="Experience-Card" key={id}>
+              <img src={Image} alt="" className="Card-Logo" />
+            </div>
+          );
+        })}
       </div>
     </div>
   );

@@ -109,6 +109,21 @@
         }
     }
 
+    @media only screen and (max-width: 360px) {
+        .Header-Container {
+            margin-left: 0px;
+            
+            .Header-Text {
+                font-size: 53px;
+            }
+
+            .Section-Description {
+                font-size: 15px;
+            } 
+           
+        }
+    }
+
 }
 
 

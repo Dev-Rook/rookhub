@@ -7,15 +7,91 @@
   margin: auto auto auto 150px;
   padding: 10px;
   width: 500px;
+  overflow: scroll;
+  overflow-x: hidden;
+  transition: 0.5s;
 }
 .Experience-Container .Experience-Card {
   display: flex;
+  border-radius: 50%;
   flex-direction: column;
   gap: 10px;
-  height: 150px;
+  height: 100px;
   margin: auto;
   overflow: hidden;
   text-align: center;
   transition: 0.5s;
   width: 100px;
+}
+.Experience-Container .Experience-Card .Card-Logo {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  transition: 0.5s;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.Experience-Container .Experience-Card .Card-Logo:hover {
+  transform: scale(1.2);
+}
+.Experience-Container .Experience-Card .Progress-bar-Container {
+  border: 1px solid white;
+  display: flex;
+  margin: auto;
+  height: 100px;
+  width: 100px;
+}
+
+.Experience-Container::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 1350px) {
+  .About-Section {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 1350px) {
+  .Experience-Container {
+    height: 50%;
+    margin-left: 150px;
+  }
+}
+@media only screen and (max-width: 996px) {
+  .Experience-Container {
+    margin-left: 0px;
+    width: 60%;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .Experience-Container .Experience-Card {
+    height: 100px;
+    width: 100px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .About-Container {
+    height: 100%;
+  }
+  .Experience-Container {
+    margin-left: 0px;
+    width: 60%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 400px) {
+  .Experience-Container {
+    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media only screen and (max-width: 320px) {
+  .About-Container {
+    padding: 10px;
+  }
+  .About-Container .Experience-Container {
+    padding: 10px;
+    width: 90%;
+  }
 }/*# sourceMappingURL=About.css.map */
