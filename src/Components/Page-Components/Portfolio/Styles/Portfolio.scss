@@ -6,6 +6,8 @@
     padding: 10px;
     gap: 10px;
 
+    position: relative;
+
     margin: auto;
 
     overflow: scroll;
@@ -16,7 +18,6 @@
     width: 50%;
 
     transition: .5s;
-
     
     .Project-Card {
         box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;

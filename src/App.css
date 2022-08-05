@@ -14,14 +14,16 @@
 .Mobile-Menu-Icon {
   position: fixed;
   top: 20px;
-  right: 0px;
+  right: 10px;
+
+  color: white;
 
 
-  height: 80px;
-  z-index: 1;
+  height: 50px;
+  z-index: 10;
 
   transition: .5s;
-  transform: translateX(100%);
+  transform: translateX(100vw);
 }
 
 @media only screen and (max-width: 996px) {

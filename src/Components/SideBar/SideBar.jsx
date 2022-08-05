@@ -4,7 +4,7 @@ import React from 'react'
 
 import "./Styles/SideBarStyles.css"
 
-const SideBar = () => {
+const SideBar = ({showMenu, showMenuFunction}) => {
   return (
     <div className="Side-Bar">
         <div className="Logo-Container">

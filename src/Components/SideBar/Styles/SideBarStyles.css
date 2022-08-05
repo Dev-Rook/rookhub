@@ -82,6 +82,6 @@ a {
 
 @media only screen and (max-width: 996px) {
   .Side-Bar {
-    left: -140px;
+    transform: translateX(-100vw);
   }
 }/*# sourceMappingURL=SideBarStyles.css.map */
