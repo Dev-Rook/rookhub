@@ -1,0 +1,50 @@
+.Page-Section {
+  border: 1px solid black;
+  background-color: #1d1d1d;
+  display: flex;
+  padding: 20px;
+  position: relative;
+  margin: auto;
+  margin-top: 0px;
+  height: 100vh;
+  width: 100%;
+}
+.Page-Section .Header-Container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 20px;
+  margin: auto;
+  margin-left: 150px;
+  transition: 0.5s;
+}
+.Page-Section .Header-Container .Header-Text {
+  color: white;
+  font-family: sans-serif;
+  font-size: 103px;
+  font-weight: 400;
+  text-align: left;
+  margin: auto;
+  transition: 0.5s;
+}
+.Page-Section .Header-Container .Header-Text .Red-Letter {
+  color: red;
+}
+.Page-Section .Header-Container .Job-Title {
+  color: white;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+.Page-Section .Header-Container .Job-Title .Red-Letter {
+  color: red;
+}
+@media only screen and (max-width: 1300px) {
+  .Page-Section .Header-Container {
+    margin-left: 0px;
+  }
+  .Page-Section .Header-Container .Header-Text {
+    font-size: 83px;
+  }
+}/*# sourceMappingURL=GlobalPageStyles.css.map */
