@@ -87,11 +87,11 @@
   }
 }
 @media only screen and (max-width: 320px) {
-  .About-Container {
+  .About-Section {
     padding: 10px;
     height: 100%;
   }
-  .About-Container .Experience-Container {
+  .About-Section .Experience-Container {
     padding: 10px;
     width: 90%;
   }

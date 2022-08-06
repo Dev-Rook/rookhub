@@ -160,5 +160,9 @@
     width: -webkit-fit-content;
     width: -moz-fit-content;
     width: fit-content;
+    height: 800px;
+  }
+  .Portfolio-Section {
+    height: 100%;
   }
 }/*# sourceMappingURL=Portfolio.css.map */
