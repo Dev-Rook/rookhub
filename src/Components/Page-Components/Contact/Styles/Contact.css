@@ -86,7 +86,7 @@
 }
 
 @media only screen and (max-width: 930px) {
-  .Page-Section {
+  .Contact-Section {
     flex-direction: column;
     height: 100%;
   }
