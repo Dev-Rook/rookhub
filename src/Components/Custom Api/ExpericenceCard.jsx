@@ -1,35 +1,44 @@
+import Html from "../../Assets/Icons/Html-Logo.png"
+import Css from "../../Assets/Icons/Css-Logo.png"
+import Js from "../../Assets/Icons/JavaScript-Logo.png"
+import React from "../../Assets/Icons/React-Logo.png"
+import Bootstrap from "../../Assets/Icons/Bootstrap-Logo.png"
+import Sass from "../../Assets/Icons/Sass-Logo.png"
+import GitHub from "../../Assets/Icons/GitHub-Logo.png"
+import TypeScript from "../../Assets/Icons/TypeScript-Logo.png"
+
 const ExperienceCard = [
     {
         id: 1,
-        Image: "https://cdn-icons-png.flaticon.com/512/262/262200.png",
+        Image: Html,
     },
     {
         id: 2,
-        Image: "https://cdn-icons-png.flaticon.com/512/331/331383.png",
+        Image: Css,
     },
     {
         id: 3,
-        Image: "https://cdn-icons.flaticon.com/png/512/2340/premium/2340047.png?token=exp=1659762249~hmac=85b1deec2fba498d9a6795dbb5e2ec39",
+        Image: Js,
     },
     {
         id: 4,
-        Image: "https://cdn-icons-png.flaticon.com/512/3334/3334886.png",
+        Image: React,
     },
     {
         id: 5,
-        Image: "https://cdn-icons-png.flaticon.com/512/5968/5968667.png",
+        Image: Bootstrap,
     },
     {
         id: 6,
-        Image: "https://cdn-icons-png.flaticon.com/512/919/919831.png",
+        Image: Sass,
     },
     {
         id: 7,
-        Image: "https://cdn-icons-png.flaticon.com/512/270/270798.png",
+        Image: GitHub,
     },
     {
         id: 8,
-        Image: "https://cdn-icons-png.flaticon.com/512/5968/5968326.png",
+        Image: TypeScript,
     },
 
 ]

@@ -27,6 +27,8 @@
   width: 50%;
   border: none;
   background-color: #2b2b2b;
+  color: white;
+  font-size: 18px;
 }
 .Contact-Section .Form-Section .Contact-Form .Input::-webkit-input-placeholder {
   font-size: 16px;

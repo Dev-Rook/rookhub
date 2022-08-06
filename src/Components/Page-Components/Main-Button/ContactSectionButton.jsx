@@ -3,7 +3,7 @@ import "./Styles/MainButton.css"
 
 const ContactSectionButton = () => {
   return (
-    <button className='Contact-Section-Button'>
+    <button type='submit' className='Contact-Section-Button'>
         <p className="Main-Button-Text">
             Contact Me!
         </p>
