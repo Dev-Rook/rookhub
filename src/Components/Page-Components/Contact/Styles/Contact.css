@@ -40,7 +40,7 @@
   border: none;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
 }
 .Contact-Section .Form-Section .Contact-Form .Subject--Message .Subject, .Contact-Section .Form-Section .Contact-Form .Subject--Message .Message-Box {
   width: 100%;

@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "../_Global-Page-Styles/GlobalPageStyles.css";
 import "./Styles/Contact.css";
 
 import ContactSectionButton from "../Main-Button/ContactSectionButton";
 
 export const Contact = () => {
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <div className="Page-Section Contact-Section">
       <div className="Form-Section">
