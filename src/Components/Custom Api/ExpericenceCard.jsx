@@ -9,7 +9,7 @@ const ExperienceCard = [
     },
     {
         id: 3,
-        Image: "https://cdn-icons.flaticon.com/png/512/2340/premium/2340047.png?token=exp=1659741322~hmac=3d506e321cf8fa0f2b34e46ad9d13525",
+        Image: "https://cdn-icons.flaticon.com/png/512/2340/premium/2340047.png?token=exp=1659762249~hmac=85b1deec2fba498d9a6795dbb5e2ec39",
     },
     {
         id: 4,
