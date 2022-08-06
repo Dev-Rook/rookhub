@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React from 'react'
+import { Link } from 'react-router-dom';
 import "./Styles/MobileMenu.css"
 
 const MobileMenu = ({showMenu}) => {
@@ -6,29 +7,29 @@ const MobileMenu = ({showMenu}) => {
   return (
     <ul className={showMenu ? "Mobile-Navlink-Container Show-Menu" : "Mobile-Navlink-Container"}>
         <li className="Mobile-Navlink-Items">
-            <a href="#" className="Mobile-Navlink">
+            <Link to="/" className="Mobile-Navlink">
                 <img src={require("../../Assets/Icons/Home-Icon.png")} alt="" className="NavIcon" />
-            </a>
+            </Link>
         </li>
         <li className="Mobile-Navlink-Items">
-            <a href="#" className="Mobile-Navlink">
+            <Link to="Portfolio" className="Mobile-Navlink">
                 <img src={require("../../Assets/Icons/Portfolio-Icon.png")} alt="" className="NavIcon" />
-            </a>
+            </Link>
         </li>
         <li className="Mobile-Navlink-Items">
-            <a href="#" className="Mobile-Navlink">
+            <Link to="About" className="Mobile-Navlink">
                 <img src={require("../../Assets/Icons/About-Icon.png")} alt="" className="NavIcon" />
-            </a>
+            </Link>
         </li>
         <li className="Mobile-Navlink-Items">
-            <a href="#" className="Mobile-Navlink">
+            <Link to="/" className="Mobile-Navlink">
                 <img src={require("../../Assets/Icons/Dev-Logs-Icon.png")} alt="" className="NavIcon" />
-            </a>
+            </Link>
         </li>
         <li className="Mobile-Navlink-Items">
-            <a href="#" className="Mobile-Navlink DevLogs">
+            <Link to="Contact" className="Mobile-Navlink DevLogs">
                 <img src={require("../../Assets/Icons/Contact-Icon.png")} alt="" className="NavIcon" />
-            </a>
+            </Link>
         </li>
     </ul>
   )

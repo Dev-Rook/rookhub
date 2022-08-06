@@ -1,5 +1,5 @@
 import React from 'react'
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 import "./Styles/SideBarStyles.css"
@@ -13,24 +13,24 @@ const SideBar = ({showMenu, showMenuFunction}) => {
 
         <ul className="NavLink-Container">
             <li className='NavLink-item'>
-                <a href='#' className='NavLink'>
+                <Link to='About' className='NavLink'>
                     About
-                </a>
+                </Link>
             </li>
             <li className='NavLink-item'>
-                <a href='#' className='NavLink'>
+                <Link to='Portfolio' className='NavLink'>
                     Portfolio
-                </a>
+                </Link>
             </li>
             <li className='NavLink-item'>
-                <a href='#' className='NavLink'>
+                <Link to='Contact' className='NavLink'>
                     Contact
-                </a>
+                </Link>
             </li>
             <li className='NavLink-item'>
-                <a href='#' className='NavLink DevLogs'>
+                <Link to='/' className='NavLink DevLogs'>
                     Dev Logs
-                </a>
+                </Link>
             </li>
         </ul>
 

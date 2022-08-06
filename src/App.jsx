@@ -5,7 +5,11 @@ import './App.css';
 
 import SideBar from './Components/SideBar/SideBar';
 import MobileMenu from './Components/Mobile-Menu/MobileMenu';
+
 import LandingPage from './Views/Landing/LandingPage';
+import { About } from './Components/Page-Components/About/About';
+import Portfolio from './Components/Page-Components/Portfolio/Portfolio';
+import { Contact } from './Components/Page-Components/Contact/Contact';
 
 function App() {
 
@@ -24,6 +28,10 @@ function App() {
 
         <Routes>
           <Route path='/' element={<LandingPage />} />   
+          <Route path='About' element={<About />} />   
+          <Route path='Portfolio' element={<Portfolio />} />   
+          <Route path='/' element={<LandingPage />} />   
+          <Route path='Contact' element={<Contact />} />   
         </Routes>
       </BrowserRouter>
     </div>
