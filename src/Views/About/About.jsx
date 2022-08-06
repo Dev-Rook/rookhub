@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import "../_Global-Page-Styles/GlobalPageStyles.css";
+import "../../Components/Page Components/_Global-Page-Styles/GlobalPageStyles.css";
 import "./Styles/About.css";
 
-import ExperienceCard from "../../Custom Api/ExpericenceCard";
+import ExperienceCard from "../../Components/Custom Api/ExpericenceCard";
 
 export const About = () => {
   const [experienceCard, setExperinceCard] = useState(ExperienceCard);

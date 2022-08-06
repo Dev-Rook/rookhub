@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-import "../_Global-Page-Styles/GlobalPageStyles.css"
+import "../../Components/Page Components/_Global-Page-Styles/GlobalPageStyles.css"
 import "./Styles/Portfolio.css"
 
-import ViewMoreButton from '../Main-Button/ViewMoreButton' 
-import Card from '../../Custom Api/Card'
+import ViewMoreButton from '../../Components/Page Components/Main-Button/ViewMoreButton'
+import Card from '../../Components/Custom Api/Card'
 
 const Portfolio = () => {
 

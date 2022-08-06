@@ -1,7 +1,7 @@
 import React from 'react'
-import "../_Global-Page-Styles/GlobalPageStyles.css"
+import "../../Components/Page Components/_Global-Page-Styles/GlobalPageStyles.css"
 
-import ContactButton from '../Main-Button/ContactButton'
+import ContactButton from '../../Components/Page Components/Main-Button/ContactButton'
 
 const Intro = () => {
   return (

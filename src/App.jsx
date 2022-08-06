@@ -7,9 +7,9 @@ import SideBar from './Components/SideBar/SideBar';
 import MobileMenu from './Components/Mobile-Menu/MobileMenu';
 
 import LandingPage from './Views/Landing/LandingPage';
-import { About } from './Components/Page-Components/About/About';
-import Portfolio from './Components/Page-Components/Portfolio/Portfolio';
-import { Contact } from './Components/Page-Components/Contact/Contact';
+import { About } from './Views/About/About';
+import Portfolio from './Views/Portfolio/Portfolio';
+import { Contact } from './Views/Contact/Contact';
 
 function App() {
 

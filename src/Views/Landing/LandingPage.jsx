@@ -3,10 +3,10 @@ import React from 'react'
 import "./Styles/Landing.css"
 
 
-import Intro from '../../Components/Page-Components/Intro/Intro';
-import Portfolio from '../../Components/Page-Components/Portfolio/Portfolio';
-import { About } from '../../Components/Page-Components/About/About';
-import { Contact } from '../../Components/Page-Components/Contact/Contact';
+import Intro from '../Intro/Intro';
+import Portfolio from '../Portfolio/Portfolio';
+import { About } from '../About/About';
+import { Contact } from '../Contact/Contact';
 
 const LandingPage = () => {
   return (
