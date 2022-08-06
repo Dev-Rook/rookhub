@@ -116,11 +116,11 @@ export const Contact = () => {
               rows="10"
             ></textarea>
           </fieldset>
-        </form>
 
         <button type='submit' value={"Send"} className="Contact-Section-Button">
           <p className="Main-Button-Text">Contact Me!</p>
         </button>
+        </form>
       </div>
 
       <div className="Map--Board">
