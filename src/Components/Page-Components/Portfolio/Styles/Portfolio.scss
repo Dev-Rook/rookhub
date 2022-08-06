@@ -216,6 +216,19 @@
 
 }
     
+@media only screen and (max-width: 590px) {
+    .Portfolio-Container {
+        padding: 10px;
+        width: fit-content;
+
+        height: 900px;
+    }
+    .Portfolio-Section {
+        height: 100%;
+    }
+
+}
+    
 @media only screen and (max-width: 320px) {
     .Portfolio-Container {
         padding: 10px;
@@ -223,8 +236,4 @@
 
         height: 800px;
     }
-    .Portfolio-Section {
-        height: 100%;
-    }
-
 }

@@ -154,6 +154,18 @@
     width: 300px;
   }
 }
+@media only screen and (max-width: 590px) {
+  .Portfolio-Container {
+    padding: 10px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 900px;
+  }
+  .Portfolio-Section {
+    height: 100%;
+  }
+}
 @media only screen and (max-width: 320px) {
   .Portfolio-Container {
     padding: 10px;
@@ -161,8 +173,5 @@
     width: -moz-fit-content;
     width: fit-content;
     height: 800px;
-  }
-  .Portfolio-Section {
-    height: 100%;
   }
 }/*# sourceMappingURL=Portfolio.css.map */

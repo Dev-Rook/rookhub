@@ -1,4 +1,4 @@
-.Contact-Button, .View-More-Button {
+.Contact-Button, .View-More-Button, .Contact-Section-Button {
   width: 200px;
   align-items: center;
   background-color: #1d1d1d;
@@ -26,7 +26,7 @@
   transition: 0.5s;
 }
 
-.Contact-Button:after, .View-More-Button:after {
+.Contact-Button:after, .View-More-Button:after, .Contact-Section-Button:after {
   border: 1px solid #f20407;
   content: "";
   display: block;
@@ -40,16 +40,16 @@
   z-index: -1;
 }
 
-.Contact-Button:hover:after, .View-More-Button:hover:after {
+.Contact-Button:hover:after, .View-More-Button:hover:after, .Contact-Section-Button:hover:after {
   transform: translate(0, 0);
 }
 
-.Contact-Button:active, .View-More-Button:active {
+.Contact-Button:active, .View-More-Button:active, .Contact-Section-Button:active {
   background-color: #ffdeda;
   outline: 0;
 }
 
-.Contact-Button:hover, .View-More-Button:hover {
+.Contact-Button:hover, .View-More-Button:hover, .Contact-Section-Button:hover {
   outline: 0;
 }
 
@@ -68,13 +68,18 @@
     padding: 0 40px;
   }
 }
-.Contact-Button-Text, .View-More-Button {
+.Contact-Button-Text, .View-More-Button, .Contact-Section-Button {
   color: #fff;
   font-family: sans-serif;
   font-size: 14px;
   font-weight: 400;
 }
 
-.Contact-Button:hover, .View-More-Button:hover {
+.Contact-Button:hover, .View-More-Button:hover, .Contact-Section-Button:hover {
   background-color: rgba(242, 4, 7, 0.5);
+}
+
+.Contact-Section-Button {
+  margin: auto;
+  margin-right: 0px;
 }/*# sourceMappingURL=MainButton.css.map */
