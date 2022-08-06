@@ -4,7 +4,7 @@
   display: flex;
   flex-wrap: wrap;
   position: fixed;
-  top: 25px;
+  top: 22px;
   right: 60px;
   padding: 10px;
   gap: 30px;
@@ -25,6 +25,10 @@
   margin: auto;
   transition: 0.5s;
 }
+.Mobile-Navlink-Container .Mobile-Navlink-Items .Mobile-Navlink .NavIcon {
+  height: 25px;
+  margin: auto;
+}
 .Mobile-Navlink-Container .Mobile-Navlink-Items .Mobile-Navlink:hover {
   color: #f20407;
 }
@@ -39,7 +43,7 @@
   transform: translate(0%);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 350px) {
   .Mobile-Navlink-Container {
     flex-direction: column;
     top: 75px;
