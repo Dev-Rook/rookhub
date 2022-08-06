@@ -1,15 +1,13 @@
 import React, { useState, useRef } from "react";
 import { useForm } from "react-hook-form";
-import {yupResolver} from "@hookform/resolvers/yup";
-// import emailjs from '@emailjs/browser';
-import emailjs from 'emailjs-com';
+import { yupResolver } from "@hookform/resolvers/yup";
+import emailjs from "@emailjs/browser";
 import * as yup from "yup";
 
 import "../_Global-Page-Styles/GlobalPageStyles.css";
 import "./Styles/Contact.css";
 
 import ContactSectionButton from "../Main-Button/ContactSectionButton";
-
 
 // const schema = yup.object().shape({
 //   Name: yup.string().required(),
@@ -19,7 +17,6 @@ import ContactSectionButton from "../Main-Button/ContactSectionButton";
 // })
 
 export const Contact = () => {
-
   // const {register, handleSubmit, error} = useForm({
   //   resolver: yupResolver(schema),
   // })
@@ -45,26 +42,28 @@ export const Contact = () => {
   //   setMessage({...message, Message: e.target.value})
   // }
 
-
-
-
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'service_je8a17f', form.current, 'sQqr418TGzaMZjJK7')
-      .then((result) => {
+    emailjs
+      .sendForm(
+        "service_je8a17f",
+        "template_eltdcq8",
+        form.current,
+        "sQqr418TGzaMZjJK7"
+      )
+      .then(
+        (result) => {
           console.log(result.text);
-      }, (error) => {
+        },
+        (error) => {
           console.log(error.text);
-      });
+        }
+      );
       e.target.reset()
   };
-
-
-
-
 
   return (
     <div className="Page-Section Contact-Section">
@@ -82,23 +81,54 @@ export const Contact = () => {
           </p>
         </div>
 
-        <form onSubmit={sendEmail} action="POST" className="Contact-Form">
+        <form ref={form} onSubmit={sendEmail} className="Contact-Form">
           <fieldset className="Name--Email">
-            <input required type="text" className="Input" name="Name" placeholder="Email" />
-            <input required type="text" className="Input" name="Name" placeholder="Name" />
+            <input
+              required
+              type="text"
+              className="Input"
+              name="Name"
+              placeholder="Email"
+            />
+            <input
+              required
+              type="text"
+              className="Input"
+              name="Email"
+              placeholder="Name"
+            />
           </fieldset>
 
           <fieldset className="Subject--Message">
-          <input required type="text" className="Input Subject" name="Name" placeholder="Subject" />
-            <textarea required name="Message" className="Input Message-Box" placeholder="Messgae" cols="30" rows="10"></textarea>
+            <input
+              required
+              type="text"
+              className="Input Subject"
+              name="Subject"
+              placeholder="Subject"
+            />
+            <textarea
+              required
+              name="Message"
+              className="Input Message-Box"
+              placeholder="Messgae"
+              cols="30"
+              rows="10"
+            ></textarea>
           </fieldset>
         </form>
 
-        <ContactSectionButton />
+        <button type='submit' value={"Send"} className="Contact-Section-Button">
+          <p className="Main-Button-Text">Contact Me!</p>
+        </button>
       </div>
 
       <div className="Map--Board">
-        <img src={require("../../../Assets/Images/Map.jpg")} alt="" className="Map" />
+        <img
+          src={require("../../../Assets/Images/Map.jpg")}
+          alt=""
+          className="Map"
+        />
       </div>
     </div>
   );
