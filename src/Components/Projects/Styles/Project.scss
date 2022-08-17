@@ -1,7 +1,7 @@
 
 
 .Project-Wrapper {
-    border: 1px solid white;
+    
     display: flex;
 
     padding: 10px;
@@ -83,6 +83,7 @@
 
         .Responsive-Project-Image {
             margin: auto;
+            margin-left: 0px;
             display: flex;
             height: 300px;
             width: 100%;
@@ -91,16 +92,17 @@
         }
 
         .Responsive-Project-Image:hover {
-            transform: scale(1.1);
+            transform: scale(.9);
         }
 
         
-        @media only screen and (max-width: 1000px) {
+        @media only screen and (max-width: 665px) {
             .Responsive-Project-Image {
                 display: flex;
+                width: 100%;
             }
-
         }
+        
 
         .Description {
             color: white;
@@ -151,15 +153,18 @@
         .Project-Wrapper {
             width: 100%;
         }
-        .Project-Image {
-            display: none;
-        }
-
         .Info-Section {
             width: 100%;
         }
         .Responsive-Project-Image {
             display: flex;
+        }
+
+    }
+
+    @media only screen and (max-width: 665px) {
+        .Project-Image {
+            display: none;
         }
 
     }
