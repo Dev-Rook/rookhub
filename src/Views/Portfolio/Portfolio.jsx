@@ -67,37 +67,6 @@ const Portfolio = () => {
           </SwiperSlide>
           ...
         </Swiper>
-      {/* <div className="Portfolio-Container">
-
-        {projectCard.map((value) => {
-            const {Title, Image, Description, Code, Demo, Type, Status, id} = value;
-
-            return (
-              <div className="Project-Card" key={id}>
-              <img src={Image} alt="" className="Card-Display-Image" />
-  
-              <div className="Card-Details">
-                <h3 className="Card-Title">{Title}</h3>
-                <p className="Card-Type">{Type}</p>
-                <p className="Card-Description">{Description}</p>
-  
-                <div className="Code-Or-Demo-Container">
-                  <a href={Code} target="_blank" id="Project-Link-Code">
-                    Code
-                  </a>
-                  <a href={Demo} target="_blank" id="Project-Link-Demo">
-                    Demo
-                  </a>
-                </div>
-  
-                <p className="Status">
-                  {Status}
-                </p>
-              </div>
-            </div>
-            )
-          })}
-      </div> */}
     </div>
   );
 };

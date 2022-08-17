@@ -8,11 +8,35 @@
     display: flex;
     width: 100%;
     margin: auto;
+    margin-top: 50px;
     margin-left: 110px;
     width: 90%;
     .SwiperSlide {
       display: flex;
       margin: auto;
+    }
+
+    .swiper-button-next {
+        background-image: url("../../../Assets/Icons/Next-Icon.png");
+    }
+
+    .swiper-button-prev {
+        background-image: url("../../../Assets/Icons/Next-Icon.png");
+        transform: rotate(-180deg);
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .swiper-button-next, .swiper-button-prev {
+        color: #f20407;
+    }
+
+    .swiper-button-next::after, .swiper-button-prev::after {
+        display: none;
     }
   }
 

@@ -8,12 +8,31 @@
   display: flex;
   width: 100%;
   margin: auto;
+  margin-top: 50px;
   margin-left: 110px;
   width: 90%;
 }
 .Portfolio-Section .Swiper .SwiperSlide {
   display: flex;
   margin: auto;
+}
+.Portfolio-Section .Swiper .swiper-button-next {
+  background-image: url("../../../Assets/Icons/Next-Icon.png");
+}
+.Portfolio-Section .Swiper .swiper-button-prev {
+  background-image: url("../../../Assets/Icons/Next-Icon.png");
+  transform: rotate(-180deg);
+}
+.Portfolio-Section .Swiper .swiper-button-next, .Portfolio-Section .Swiper .swiper-button-prev {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.Portfolio-Section .Swiper .swiper-button-next, .Portfolio-Section .Swiper .swiper-button-prev {
+  color: #f20407;
+}
+.Portfolio-Section .Swiper .swiper-button-next::after, .Portfolio-Section .Swiper .swiper-button-prev::after {
+  display: none;
 }
 .Portfolio-Section .Portfolio-Container {
   display: flex;
