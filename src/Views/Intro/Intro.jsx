@@ -32,7 +32,7 @@ const Intro = () => {
           Hi, I'm <br /> Daniel <span className="Red-Letter">R</span>ook
         </motion.h1>
         <p className="Job-Title">
-          <span className="Red-Letter">-</span> Frontend Web Developer
+          <span className="Red-Letter">-</span> &nbsp; Frontend Web Developer
         </p>
         <ContactButton />
       </div>

@@ -29,7 +29,7 @@ const Portfolio = () => {
         </h1>
 
         <p className="Section-Description">
-          <span className="Red-Letter">-</span> This is a small collection of
+          <span className="Red-Letter">-</span> &nbsp; This is a small collection of
           recents projects hand picked by me. <br /> I have done them solo or in
           collaboration with other developers and or teams.
         </p>

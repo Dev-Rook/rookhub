@@ -45,7 +45,7 @@ export const Contact = () => {
           </h1>
 
           <p className="Section-Description">
-            <span className="Red-Letter">-</span> I am interested in
+            <span className="Red-Letter">-</span> &nbsp; I am interested in
             opportunities to freelance or perhaps even <br /> join in on large
             ambitious projects. If you have any questions, <br /> feel free to
             ask.
