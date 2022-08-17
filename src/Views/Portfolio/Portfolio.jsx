@@ -1,4 +1,7 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef} from "react";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -21,18 +24,24 @@ import ViewMoreButton from "../../Components/Page Components/Main-Button/ViewMor
 import Project1 from "../../Components/Projects/Project1";
 
 const Portfolio = () => {
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <div className="Page-Section Portfolio-Section">
       <div className="Header-Container">
-        <h1 className="Header-Text">
+        <h1 data-aos="fade-right"data-aos-duration="1000" className="Header-Text">
           My <span className="Red-Letter">P</span>ortfolio
         </h1>
 
-        <p className="Section-Description">
+        <div className="Section-Description">
           <span className="Red-Letter">-</span> &nbsp; This is a small collection of
-          recents projects hand picked by me. <br /> I have done them solo or in
+          recents projects hand picked by me. I have done them solo or in
           collaboration with other developers and or teams.
-        </p>
+        </div>
 
         <ViewMoreButton />
       </div>

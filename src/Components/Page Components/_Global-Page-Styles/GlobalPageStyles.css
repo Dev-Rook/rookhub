@@ -53,6 +53,7 @@
   margin: auto;
   margin-left: 0px;
   transition: 0.5s;
+  width: 100%;
 }
 .Page-Section .Header-Container .Section-Description .Red-Letter {
   color: red;

@@ -1,19 +1,21 @@
-import React, { useState, useRef } from "react";
+import React, { useEffect, useRef} from "react";
 
+import AOS from "aos";
+import "aos/dist/aos.css";
 import emailjs from "@emailjs/browser";
-
 
 import "../../Components/Page Components/_Global-Page-Styles/GlobalPageStyles.css";
 import "./Styles/Contact.css";
 
 import ContactSectionButton from "../../Components/Page Components/Main-Button/ContactSectionButton";
 
-
-
 export const Contact = () => {
-
-
   const form = useRef();
+
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -33,14 +35,14 @@ export const Contact = () => {
           console.log(error.text);
         }
       );
-      e.target.reset()
+    e.target.reset();
   };
 
   return (
     <div className="Page-Section Contact-Section" name="Contact">
       <div className="Form-Section">
         <div className="Header-Container Contact-Header">
-          <h1 className="Header-Text">
+          <h1 data-aos="fade-right"data-aos-duration="1000" className="Header-Text">
             Contact <span className="Red-Letter">M</span>e
           </h1>
 
@@ -90,15 +92,21 @@ export const Contact = () => {
 
           <ContactSectionButton />
 
-        {/* <button type='submit' value={"Send"} className="Contact-Section-Button">
+          {/* <button type='submit' value={"Send"} className="Contact-Section-Button">
           <p className="Main-Button-Text">Contact Me!</p>
         </button> */}
         </form>
       </div>
 
       <div className="Map--Board">
+        .
         <img
-          src={require("../../Assets/Images/Map.jpg")}
+          src={require("../../Assets/Icons/Location-Icon.png")}
+          alt=""
+          className="Location-Pin"
+        />
+        <img
+          src={require("../../Assets/Images/Cornwall-Map.jpg")}
           alt=""
           className="Map"
         />

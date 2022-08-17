@@ -59,7 +59,7 @@ const SideBar = ({ showMenu, showMenuFunction }) => {
         <div className="Social-Icon-Container">
           <a target={"_blank"} href="https://www.linkedin.com/in/dev-rook/">
             <img
-              src={require("../../Assets/Icons/GitHub-Icon.png")}
+              src={require("../../Assets/Icons/LinkedIn-Icon.png")}
               alt=""
               className="Social-Icon"
             />

@@ -73,6 +73,7 @@
     }
 
     .Map--Board {
+        position: relative;
         display: flex;
         height: 95%;
         margin: auto;
@@ -80,7 +81,19 @@
 
         transition: .5s;
 
+        .Location-Pin {
+            position: absolute;
+            top: 25%;
+            left: 52%;
+
+            height: 30px;
+
+            z-index: 1;
+
+        }
+
         .Map {
+            position: relative;
             height: 100%;
             width: 100%;
             margin: auto;

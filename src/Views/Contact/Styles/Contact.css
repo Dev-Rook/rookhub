@@ -55,13 +55,22 @@
   margin-right: 0px;
 }
 .Contact-Section .Map--Board {
+  position: relative;
   display: flex;
   height: 95%;
   margin: auto;
   width: 50%;
   transition: 0.5s;
 }
+.Contact-Section .Map--Board .Location-Pin {
+  position: absolute;
+  top: 25%;
+  left: 52%;
+  height: 30px;
+  z-index: 1;
+}
 .Contact-Section .Map--Board .Map {
+  position: relative;
   height: 100%;
   width: 100%;
   margin: auto;

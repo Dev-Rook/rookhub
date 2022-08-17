@@ -1,5 +1,9 @@
-
-
+.About-Section {
+    border: none;
+    .Header-Container {
+        width: 50%;
+    }
+}
 .Experience-Container {
     grid-gap: 10px;
     display: grid;
