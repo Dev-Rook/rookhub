@@ -1,241 +1,52 @@
+.Portfolio-Section {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 
-.Portfolio-Container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-
-    padding: 10px;
-    gap: 10px;
-
-    position: relative;
-
-    margin: auto;
-
-    overflow: scroll;
-    overflow-x: hidden;
-
-
-    height: 90%;
-    width: 50%;
-
-    transition: .5s;
-    
-    .Project-Card {
-        box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    .Portfolio-Container {
+        border: 1px solid white;
         display: flex;
-        flex-direction: column;
     
-        overflow: hidden;
+        padding: 10px;
+
+    
         position: relative;
     
         margin: auto;
+        margin-left: 150px;
     
-    
-        height: 300px;
-        width: 250px;
+        // overflow: scroll;
+        // overflow-x: hidden;
+       
+        width: 80%;
     
         transition: .5s;
-        z-index: 99;
-        
-    
-    
-        .Card-Display-Image {
+
+        .Swiper {
             display: flex;
-            flex-direction: column;
-    
-            margin: auto;
-    
-            height: 100%;
             width: 100%;
-            object-fit: cover;
-            transition: .5s;
-        }
-    
-        .Card-Details {
-            box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
-            background-color: #1d1d1d;
-    
-            display: flex;
-            flex-direction: column;
-    
-            position: absolute;
-            bottom: 0px;
-            
-            padding: 10px;
-            gap: 10px;
-    
             margin: auto;
-            margin-top: 10%;
-    
-            height: 90%;
-            width: 100%;
-    
-            transform: translateY(100%);
-            transition: .5s;
-
-            .Card-Title {
-                color: white;
-                font-family: sans-serif;
-                font-weight: 400;
-                font-size: 24px;
-                
-                margin: auto;
-                margin-top: 0px;
-        
-                text-align: left;
-                transition: .5s;
-            }
-        
-        
-            .Card-Type {
-                color: #35a967;
-                font-family: sans-serif;
-                font-weight: 400;
-                font-size: 15px;
-
-                margin-top: 0px;
-        
-                text-align: left;
-                transition: .5s;
-            }
-        
-            .Card-Description {
-                color: #90aeb5;
-                font-family: sans-serif;
-                font-weight: 400;
-                font-size: 20px;
-
-                margin-top: 0px;
-        
-                text-align: left;
-                transition: .5s;
-            }
-        
-            .Code-Or-Demo-Container {
+            .SwiperSlide {
                 display: flex;
-        
-                gap: 10px;
-        
                 margin: auto;
-                margin-left: 0px;
-                margin-bottom: 0px;
-            }
-        
-            #Project-Link-Code {
-                color: #3e77bf;
-                font-family: sans-serif;
-                font-weight: 400;
-                /* font-size: 20px; */
-        
-                text-decoration: none;
-                text-align: left;
-                transition: .5s;
-            }
-
-            #Project-Link-Demo {
-                color: #f20407;
-                font-family: sans-serif;
-                font-weight: 400;
-                /* font-size: 20px; */
-        
-                text-decoration: none;
-                text-align: left;
-                transition: .5s;
-            }
-            
-            .Status {
-                color: #6e2389;
-                font-family: sans-serif;
-                font-weight: 400;
-                /* font-size: 20px; */
-        
-                text-decoration: none;
-                text-align: left;
-                transition: .5s;
-
-                position: absolute;
-                right: 10px;
-                bottom: 10px;
             }
         }
-    
-
-    
         
-    
-    
-        @media only screen and (max-width: 1600px) {
-            .Project-Card{
-                height: 300px;
-                width: 250px;
-            }
+    }
+      
+    @media only screen and (max-width: 996px) {
+        .Portfolio-Container {
+            margin-left: 0px;
+            width: 90%;
         }
     
-        @media only screen and (max-width: 768px) {
-            .Project-Card{
-                height: 250px;
-                width: 150px;
-            }
-        }
-    }
-    
-    
-    
-    .Project-Card:hover .Card-Details {
-        transform: translateY(0%);
-    } 
-    
-    .Project-Card:hover .Card-Display-Image {
-        transform: scale(1.5);
-    } 
-
-    
-}
-.Portfolio-Container::-webkit-scrollbar {
-    display: none;
+    }   
 }
 
-    
-@media only screen and (max-width: 1350px) {
-    .Portfolio-Section {
-        flex-direction: column;
-        gap: 50px;
-    }
-}
-    
-@media only screen and (max-width: 1350px) {
-    .Portfolio-Container {
-        border: 1px solid white;
-        margin-left: 150px;
-        width: 90%;
-    }
-}
-    
 @media only screen and (max-width: 996px) {
-    .Portfolio-Container {
-        margin-left: 0px;
-        width: 300px;
-    }
-
-}
-    
-@media only screen and (max-width: 590px) {
-    .Portfolio-Container {
-        padding: 10px;
-        width: fit-content;
-
-        height: 900px;
-    }
     .Portfolio-Section {
+        gap: 20px;
         height: 100%;
     }
 
-}
-    
-@media only screen and (max-width: 320px) {
-    .Portfolio-Container {
-        padding: 10px;
-        width: fit-content;
-
-        height: 800px;
-    }
 }

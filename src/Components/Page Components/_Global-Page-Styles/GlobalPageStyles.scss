@@ -16,6 +16,7 @@
     width: 100%;
 
     .Header-Container {
+        border: 1px solid white;
         display: flex;
         flex-direction: column;
 
@@ -49,6 +50,9 @@
             font-size: 20px;
             font-weight: 400;
             text-align: left;
+
+            display: flex;
+            flex-wrap: wrap;
             
             .Red-Letter {
                 color: red;
@@ -61,6 +65,9 @@
             font-size: 20px;
             font-weight: 400;
             text-align: left;
+
+            display: flex;
+            flex-wrap: wrap;
 
             margin: auto;
             margin-left: 0px;

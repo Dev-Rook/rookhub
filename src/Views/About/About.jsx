@@ -21,15 +21,11 @@ export const About = () => {
         </div>
 
         <p className="Section-Description">
-          This is just text to fill a blank area because I lack the enthusiasm{" "}
-          <br /> at the moment to actually dive deep into my narcissistic
-          potential to <br /> over exaggerate what I can actually do.
+        Begun my programing adventure in 2017. Currently I specialize in <br /> frontend Web Development. My experience so far has gotten my <br /> entangled with: Html, CSS, Sass and JavaScript.
         </p>
 
         <p className="Section-Description">
-          This is just text to fill a blank area because I lack the enthusiasm{" "}
-          <br /> at the moment to actually dive deep into my narcissistic
-          potential to <br /> over exaggerate what I can actually do.
+        My main tool is: React Js. With It, I am able to produce, with the aid <br /> of libraries, projects based off established designs or on occasion, <br /> based off my own designs.
         </p>
       </div>
 

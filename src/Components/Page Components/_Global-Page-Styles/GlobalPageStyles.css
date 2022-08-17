@@ -9,6 +9,7 @@
   width: 100%;
 }
 .Page-Section .Header-Container {
+  border: 1px solid white;
   display: flex;
   flex-direction: column;
   padding: 10px;
@@ -36,6 +37,8 @@
   font-size: 20px;
   font-weight: 400;
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
 }
 .Page-Section .Header-Container .Job-Title .Red-Letter {
   color: red;
@@ -46,6 +49,8 @@
   font-size: 20px;
   font-weight: 400;
   text-align: left;
+  display: flex;
+  flex-wrap: wrap;
   margin: auto;
   margin-left: 0px;
   transition: 0.5s;
