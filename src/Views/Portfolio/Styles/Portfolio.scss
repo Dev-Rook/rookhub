@@ -1,52 +1,50 @@
 .Portfolio-Section {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  .Swiper {
+    border: 1px solid white;
     display: flex;
-    flex-direction: column;
-    height: 100%;
-
-    .Portfolio-Container {
-        border: 1px solid white;
-        display: flex;
-    
-        padding: 10px;
-
-    
-        position: relative;
-    
-        margin: auto;
-        margin-left: 150px;
-    
-        // overflow: scroll;
-        // overflow-x: hidden;
-       
-        width: 80%;
-    
-        transition: .5s;
-
-        .Swiper {
-            display: flex;
-            width: 100%;
-            margin: auto;
-            .SwiperSlide {
-                display: flex;
-                margin: auto;
-            }
-        }
-        
+    width: 100%;
+    margin: auto;
+    margin-left: 110px;
+    width: 90%;
+    .SwiperSlide {
+      display: flex;
+      margin: auto;
     }
-      
-    @media only screen and (max-width: 996px) {
-        .Portfolio-Container {
-            margin-left: 0px;
-            width: 90%;
-        }
-    
-    }   
+  }
+
+  .Portfolio-Container {
+    display: flex;
+
+    padding: 10px;
+
+    position: relative;
+
+    margin: auto;
+    margin-left: 100px;
+
+    // overflow: scroll;
+    // overflow-x: hidden;
+
+    width: 80%;
+
+    transition: 0.5s;
+  }
+
+  @media only screen and (max-width: 996px) {
+    .Swiper {
+      margin-left: 0px;
+      width: 100%;
+    }
+  }
 }
 
 @media only screen and (max-width: 996px) {
-    .Portfolio-Section {
-        gap: 20px;
-        height: 100%;
-    }
-
+  .Portfolio-Section {
+    gap: 20px;
+    height: 100%;
+  }
 }

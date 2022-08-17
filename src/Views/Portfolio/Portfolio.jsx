@@ -37,7 +37,6 @@ const Portfolio = () => {
         <ViewMoreButton />
       </div>
 
-      <div className="Portfolio-Container">
         <Swiper
           spaceBetween={50}
           slidesPerView={3}
@@ -68,8 +67,9 @@ const Portfolio = () => {
           </SwiperSlide>
           ...
         </Swiper>
+      {/* <div className="Portfolio-Container">
 
-        {/* {projectCard.map((value) => {
+        {projectCard.map((value) => {
             const {Title, Image, Description, Code, Demo, Type, Status, id} = value;
 
             return (
@@ -96,8 +96,8 @@ const Portfolio = () => {
               </div>
             </div>
             )
-          })} */}
-      </div>
+          })}
+      </div> */}
     </div>
   );
 };

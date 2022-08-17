@@ -9,7 +9,6 @@
   width: 100%;
 }
 .Page-Section .Header-Container {
-  border: 1px solid white;
   display: flex;
   flex-direction: column;
   padding: 10px;

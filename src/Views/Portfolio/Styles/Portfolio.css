@@ -3,29 +3,31 @@
   flex-direction: column;
   height: 100%;
 }
-.Portfolio-Section .Portfolio-Container {
+.Portfolio-Section .Swiper {
   border: 1px solid white;
+  display: flex;
+  width: 100%;
+  margin: auto;
+  margin-left: 110px;
+  width: 90%;
+}
+.Portfolio-Section .Swiper .SwiperSlide {
+  display: flex;
+  margin: auto;
+}
+.Portfolio-Section .Portfolio-Container {
   display: flex;
   padding: 10px;
   position: relative;
   margin: auto;
-  margin-left: 150px;
+  margin-left: 100px;
   width: 80%;
   transition: 0.5s;
 }
-.Portfolio-Section .Portfolio-Container .Swiper {
-  display: flex;
-  width: 100%;
-  margin: auto;
-}
-.Portfolio-Section .Portfolio-Container .Swiper .SwiperSlide {
-  display: flex;
-  margin: auto;
-}
 @media only screen and (max-width: 996px) {
-  .Portfolio-Section .Portfolio-Container {
+  .Portfolio-Section .Swiper {
     margin-left: 0px;
-    width: 90%;
+    width: 100%;
   }
 }
 
