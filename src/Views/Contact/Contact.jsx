@@ -1,4 +1,4 @@
-import React, { useEffect, useRef} from "react";
+import React, { useEffect, useRef } from "react";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -42,16 +42,19 @@ export const Contact = () => {
     <div className="Page-Section Contact-Section" name="Contact">
       <div className="Form-Section">
         <div className="Header-Container Contact-Header">
-          <h1 data-aos="fade-right"data-aos-duration="1000" className="Header-Text">
+          <h1
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            className="Header-Text"
+          >
             Contact <span className="Red-Letter">M</span>e
           </h1>
 
-          <p className="Section-Description">
-            <span className="Red-Letter">-</span> &nbsp; I am interested in
-            opportunities to freelance or perhaps even <br /> join in on large
-            ambitious projects. If you have any questions, <br /> feel free to
-            ask.
-          </p>
+          <div className="Section-Description">
+            I am interested in opportunities to freelance or perhaps even join
+            in on large ambitious projects. If you have any questions, feel free
+            to ask.
+          </div>
         </div>
 
         <form ref={form} onSubmit={sendEmail} className="Contact-Form">
@@ -99,14 +102,13 @@ export const Contact = () => {
       </div>
 
       <div className="Map--Board">
-        .
-        <img
+        {/* <img
           src={require("../../Assets/Icons/Location-Icon.png")}
           alt=""
           className="Location-Pin"
-        />
+        /> */}
         <img
-          src={require("../../Assets/Images/Cornwall-Map.jpg")}
+          src={require("../../Assets/Images/Cornwall-County.png")}
           alt=""
           className="Map"
         />
