@@ -1,11 +1,32 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
+
 
 import "./Styles/SideBarStyles.css";
 
+
+
+const sideBarVariants = {
+  sideHide: {
+    x: "-100%",
+    opacity: 0,
+  },
+  SideShow: {
+    x: 0,
+    opacity: 1,
+
+    transition: { duration:.3, type: "spring" },
+  },
+};
+
 const SideBar = ({ showMenu, showMenuFunction }) => {
   return (
-    <div className="Side-Bar">
+    <motion.div className="Side-Bar"
+    variants={sideBarVariants}
+    initial="sideHide"
+    animate="SideShow"
+    >
       <div className="Logo-Container">
         <Link className="R-Link" to={"/"}>
           <h1 className="R">R</h1>
@@ -69,7 +90,7 @@ const SideBar = ({ showMenu, showMenuFunction }) => {
           </a>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
