@@ -72,7 +72,7 @@ const SideBar = ({ showMenu, showMenuFunction }) => {
           </a>
         </div>
         <div className="Social-Icon-Container">
-          <a target={"_blank"} href="https://github.com/Dev-Rook">
+          <a target={"_blank"} href="https://twitter.com/Dev_Rook">
           <img
             src={require("../../Assets/Icons/Twitter-Icon.png")}
             alt=""

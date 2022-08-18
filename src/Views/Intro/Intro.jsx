@@ -38,7 +38,7 @@ const Intro = () => {
           <motion.a target="_blank" href="https://github.com/Dev-Rook">
             <img src={require("../../Assets/Icons/GitHub-Icon.png")} alt="" className="SocialIcon" />
           </motion.a>
-          <motion.a target="_blank" href="https://github.com/Dev-Rook">
+          <motion.a target="_blank" href="https://twitter.com/Dev_Rook">
             <img src={require("../../Assets/Icons/Twitter-Icon.png")} alt="" className="SocialIcon" />
           </motion.a>
           <motion.a target="_blank" href="https://github.com/Dev-Rook">
