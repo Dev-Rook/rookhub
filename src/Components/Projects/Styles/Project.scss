@@ -86,6 +86,7 @@
       width: 100%;
       display: none;
       transition: 0.3s;
+      object-fit: contain;
     }
 
     .Responsive-Project-Image:hover {
@@ -141,7 +142,7 @@
     transition: 0.3s;
     .Project-Image {
       margin: auto;
-      object-fit: cover;
+      object-fit: contain;
       height: 100%;
       width: 100%;
     }

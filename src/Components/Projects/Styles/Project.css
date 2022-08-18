@@ -64,6 +64,8 @@
   width: 100%;
   display: none;
   transition: 0.3s;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .Project-Wrapper .Info-Section .Responsive-Project-Image:hover {
   transform: scale(0.9);
@@ -108,8 +110,8 @@
 }
 .Project-Wrapper .Display-Image-Container .Project-Image {
   margin: auto;
-  -o-object-fit: cover;
-     object-fit: cover;
+  -o-object-fit: contain;
+     object-fit: contain;
   height: 100%;
   width: 100%;
 }

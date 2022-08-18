@@ -12,13 +12,13 @@ const Project1 = () => {
 
         <div className="Tools-Container">
           <div className="Tool">
-            <p className="Tool-Text">Stack</p>
+            <p className="Tool-Text">React JS</p>
           </div>
           <div className="Tool">
-            <p className="Tool-Text">Stack</p>
+            <p className="Tool-Text">Bootstrap</p>
           </div>
           <div className="Tool">
-            <p className="Tool-Text">Stack</p>
+            <p className="Tool-Text">AOS</p>
           </div>
           <div className="Tool">
             <p className="Tool-Text">Stack</p>
