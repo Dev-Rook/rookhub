@@ -8,7 +8,7 @@ const MobileMenu = ({showMenu}) => {
     <ul className={showMenu ? "Mobile-Navlink-Container Show-Menu" : "Mobile-Navlink-Container"}>
         <li className="Mobile-Navlink-Items">
             <Link to="/" className="Mobile-Navlink">
-                <img src={require("../../Assets/Icons/Home-Icon.png")} alt="" className="NavIcon" />
+                <img src={require("../../Assets/Icons/Logo.jpg")} alt="" className="NavIcon" />
             </Link>
         </li>
         <li className="Mobile-Navlink-Items">

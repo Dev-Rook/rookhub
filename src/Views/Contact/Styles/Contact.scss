@@ -97,7 +97,7 @@
             height: 100%;
             width: 100%;
             margin: auto;
-            object-fit: cover;
+            object-fit: contain;
         }
     }
     
@@ -130,5 +130,10 @@
     .Contact-Section {
         flex-direction: column;
         height: 100%;
+        .Map--Board {
+            .Map {
+                object-fit: cover;
+            }
+        }
     }
 }

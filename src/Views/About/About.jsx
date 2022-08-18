@@ -54,3 +54,6 @@ export const About = () => {
     </div>
   );
 };
+
+
+// Begun my programing adventure in 2017. Currently I specialize in frontend Web Development. My experience so far has gotten my entangled with: Html, CSS, Sass and JavaScript. My main tool is: React Js. With It, I am able to produce, with the aid of libraries, projects based off established designs or on occasion, based off my own designs.
