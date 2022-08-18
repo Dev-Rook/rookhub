@@ -62,6 +62,18 @@
 .Page-Section .Header-Container .Section-Description .Red-Letter {
   color: red;
 }
+.Page-Section .Header-Container .Social-Icon-Container {
+  display: flex;
+  margin-left: 0px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  gap: 20px;
+}
+.Page-Section .Header-Container .Social-Icon-Container .SocialIcon {
+  margin: auto;
+  height: 35px;
+}
 @media only screen and (max-width: 1300px) {
   .Page-Section .Header-Container .Header-Text {
     font-size: 83px;

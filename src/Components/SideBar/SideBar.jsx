@@ -72,13 +72,13 @@ const SideBar = ({ showMenu, showMenuFunction }) => {
           </a>
         </div>
         <div className="Social-Icon-Container">
-          {/* <a target={"_blank"} href="https://github.com/Dev-Rook">
+          <a target={"_blank"} href="https://github.com/Dev-Rook">
           <img
-            src={require("../../Assets/Icons/GitHub-Icon.png")}
+            src={require("../../Assets/Icons/Twitter-Icon.png")}
             alt=""
             className="Social-Icon"
           />
-            </a> */}
+            </a>
         </div>
         <div className="Social-Icon-Container">
           <a target={"_blank"} href="https://www.linkedin.com/in/dev-rook/">
