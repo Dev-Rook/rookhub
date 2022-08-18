@@ -23,9 +23,9 @@ const sideBarVariants = {
 const SideBar = ({ showMenu, showMenuFunction }) => {
   return (
     <motion.div className="Side-Bar"
-    variants={sideBarVariants}
-    initial="sideHide"
-    animate="SideShow"
+    // variants={sideBarVariants}
+    // initial="sideHide"
+    // animate="SideShow"
     >
       <div className="Logo-Container">
         <Link className="R-Link" to={"/"}>
