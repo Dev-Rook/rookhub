@@ -7,11 +7,14 @@ const SideBar = ({ showMenu, showMenuFunction }) => {
   return (
     <div className="Side-Bar">
       <div className="Logo-Container">
-        <img
+        <Link className="R-Link" to={"/"}>
+          <h1 className="R">R</h1>
+        </Link>
+        {/* <img
           src={require("../../Assets/Images/SideBar-Logo-1.jpg")}
           alt=""
           className="Side-Bar-Logo"
-        />
+        /> */}
       </div>
 
       <ul className="NavLink-Container">

@@ -8,7 +8,7 @@ const Project1 = () => {
       <div className="Info-Section">
         <p className="Job-Title">Frontend Web Developer</p>
 
-        <h2 className="Project-Title">Hopewell Square</h2>
+        <h2 className="Project-Title">Snapchat Landing Page</h2>
 
         <div className="Tools-Container">
           <div className="Tool">
@@ -32,22 +32,21 @@ const Project1 = () => {
         </div>
 
         <img
-          src={require("../../Assets/Images/Map.jpg")}
+          src={require("../../Assets/Images/Project Snapshots/Snapchat-Landing.jpg")}
           alt=""
           className="Responsive-Project-Image"
         />
 
         <div className="Description">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic,
-          numquam. Quo quam quaerat sequi omnis sunt corrupti rem delectus ut!
+          The goal of this project was to clone the lanading page of the snapchat website. My attempt thought me, managing my time and planning out projects before any attempts were futile for a successful project. 
         </div>
 
         <div className="Code--Demo">
-        <a href="" className="C--D">
+          <a target={"_blank"} href="" className="C--D">
             Code
           </a>
 
-          <a href="" className="C--D">
+          <a target={"_blank"} href="https://dev-rook-snapchat-clone.netlify.app/" className="C--D">
             Demo
           </a>
         </div>
@@ -55,7 +54,7 @@ const Project1 = () => {
 
       <div className="Display-Image-Container">
         <img
-          src={require("../../Assets/Images/Map.jpg")}
+          src={require("../../Assets/Images/Project Snapshots/Snapchat-Landing.jpg")}
           alt=""
           className="Project-Image"
         />

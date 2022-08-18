@@ -22,6 +22,7 @@ import "./Styles/Portfolio.css";
 
 import ViewMoreButton from "../../Components/Page Components/Main-Button/ViewMoreButton";
 import Project1 from "../../Components/Projects/Project1";
+import Project2 from "../../Components/Projects/Project2";
 
 const Portfolio = () => {
 
@@ -73,6 +74,9 @@ const Portfolio = () => {
         >
           <SwiperSlide className="SwiperSlide">
             <Project1 />
+          </SwiperSlide>
+          <SwiperSlide className="SwiperSlide">
+            <Project2 />
           </SwiperSlide>
           ...
         </Swiper>

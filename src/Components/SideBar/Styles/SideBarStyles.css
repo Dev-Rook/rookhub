@@ -24,12 +24,25 @@ a {
 }
 .Side-Bar .Logo-Container {
   border: 1px solid black;
-  background-color: green;
   display: flex;
   margin: auto;
   margin-top: 0px;
   height: 150px;
   width: 100%;
+}
+.Side-Bar .Logo-Container .R-Link {
+  margin: auto;
+  transition: 0.3s;
+}
+.Side-Bar .Logo-Container .R-Link .R {
+  color: #f20407;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 100px;
+  font-weight: 400;
+  margin: auto;
+}
+.Side-Bar .Logo-Container .R-Link:hover {
+  transform: scale(1.1);
 }
 .Side-Bar .Logo-Container .Side-Bar-Logo {
   height: 100%;
