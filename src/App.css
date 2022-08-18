@@ -12,7 +12,8 @@ html {
   position: relative;
   display: flex;
   flex-direction: column;
-  overflow-x: hidden;
+  overflow-x: hidden;    
+  background-color: #1d1d1d;
 }
 
 .Mobile-Menu-Icon {

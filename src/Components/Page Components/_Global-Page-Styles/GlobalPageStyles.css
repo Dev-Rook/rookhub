@@ -41,6 +41,10 @@
 }
 .Page-Section .Header-Container .Job-Title .Red-Letter {
   color: red;
+  font-family: sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
 }
 .Page-Section .Header-Container .Section-Description {
   color: white;

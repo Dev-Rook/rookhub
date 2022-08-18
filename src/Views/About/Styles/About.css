@@ -42,7 +42,6 @@
   transform: scale(1.2);
 }
 .Experience-Container .Experience-Card .Progress-bar-Container {
-  border: 1px solid white;
   display: flex;
   margin: auto;
   height: 100px;
@@ -65,6 +64,12 @@
   }
 }
 @media only screen and (max-width: 996px) {
+  .About-Section {
+    height: 100%;
+  }
+  .About-Section .Header-Container {
+    width: 100%;
+  }
   .Experience-Container {
     margin-left: 0px;
     width: 60%;
