@@ -124,13 +124,25 @@
       margin: auto;
       margin-left: 0px;
 
+      width: 100%;
+
       .C--D {
         color: red;
         font-family: sans-serif;
         font-size: 18px;
         font-weight: 400;
       }
+      .Status {
+        color: #6e2389;
+        font-family: sans-serif;
+        font-size: 18px;
+        font-weight: 400;
+  
+        margin: auto;
+        margin-right: 0px;
+      }
     }
+
   }
 
   .Display-Image-Container {

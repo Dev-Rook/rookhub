@@ -49,7 +49,9 @@ const Project1 = () => {
           <a target={"_blank"} href="https://dev-rook-snapchat-clone.netlify.app/" className="C--D">
             Demo
           </a>
+        <p className="Status">Incomplete</p>
         </div>
+        
       </div>
 
       <div className="Display-Image-Container">
