@@ -32,7 +32,7 @@ const Project1 = () => {
         </div>
 
         <img
-          src={require("../../Assets/Images/Map.jpg")}
+          src={require("../../Assets/Images/Cornwall-County.png")}
           alt=""
           className="Responsive-Project-Image"
         />
@@ -65,7 +65,7 @@ const Project1 = () => {
 
       <div className="Display-Image-Container">
         <img
-          src={require("../../Assets/Images/Map.jpg")}
+          src={require("../../Assets/Images/Cornwall-County.png")}
           alt=""
           className="Project-Image"
         />
