@@ -108,7 +108,7 @@ export const Contact = () => {
           className="Location-Pin"
         /> */}
         <img
-          src={require("../../Assets/Images/Cornwall-County.png")}
+          src={require("../../Assets/Images/Map.jpg")}
           alt=""
           className="Map"
         />
