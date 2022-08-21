@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { BrowserRouter, Router, Route, Routes } from 'react-router-dom';
 
 import './App.css';
@@ -19,6 +19,25 @@ function App() {
     setShowMenu((prevState) => !prevState)
   }
 
+  const [backToTop, setBackToTop] = useState(false);
+
+  useEffect(() => {
+      window.addEventListener("scroll", () => {
+          if (window.scrollY > 100) {
+              setBackToTop(true)
+          } else {
+              setBackToTop(false)
+          }
+      })
+  }, [])
+
+  const scrollUp = () => {
+      window.scrollTo({
+          top: 0,
+          behavior: "smooth"
+      })
+  }
+
   return (
     <div className='App'>
       <BrowserRouter>
@@ -34,6 +53,8 @@ function App() {
           <Route path='Contact' element={<Contact />} />   
         </Routes>
       </BrowserRouter>
+
+      <img onClick={scrollUp} src={require("./Assets/Icons/Back-To-Top-icon.png")} alt="" className={backToTop ? "Back-To-Top Show-back-To-Top-Button" : "Back-To-Top"} />
     </div>
   );
 }

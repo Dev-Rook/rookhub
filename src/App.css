@@ -54,3 +54,22 @@ html {
     transform: translateX(0%);
   }
 }
+
+
+.Back-To-Top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+
+  height: 40px;
+
+  z-index: 99;
+
+  transition: .5s;
+
+  transform: translateX(100vh);
+}
+
+.Show-back-To-Top-Button {
+  transform: rotate(-90deg)  translateX(0%);
+}
