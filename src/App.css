@@ -65,9 +65,9 @@ html {
 
   z-index: 99;
 
-  transition: .5s;
+  transition: 1s;
 
-  transform: translateX(100vh);
+  transform: rotate(90deg) translateX(100vh);
 }
 
 .Show-back-To-Top-Button {
